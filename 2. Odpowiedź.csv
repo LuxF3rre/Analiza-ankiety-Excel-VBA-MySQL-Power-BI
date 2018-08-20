@@ -1,0 +1,200 @@
+Indeks,Czy udzia³,P³eæ,id_plec,Wiek,Wydzia³,id_wydzial,Czy poda³ mail
+1,0,Mê¿czyzna,2,18,Instytut Anglistyki,11,0
+2,1,Mê¿czyzna,2,18,"Matematyki, Informatyki i Mechaniki",19,0
+3,1,Mê¿czyzna,2,19,Filozofii i Socjologii,6,0
+4,0,Mê¿czyzna,2,19,Fizyki,7,0
+5,1,Mê¿czyzna,2,19,Instytut Archeologii ,12,1
+6,1,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,0
+7,1,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,1
+8,1,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,0
+9,1,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,0
+10,1,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,0
+11,1,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,1
+12,0,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,1
+13,1,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,0
+14,1,Mê¿czyzna,2,19,"Matematyki, Informatyki i Mechaniki",19,0
+15,0,Mê¿czyzna,2,19,Miêdzywydzia³owe Indywidualne Studia Matematyczno-Przyrodnicze,20,0
+16,1,Mê¿czyzna,2,19,Miêdzywydzia³owe Indywidualne Studia Matematyczno-Przyrodnicze,20,0
+17,0,Kobieta,1,19,Nauk Politycznych i Stosunków Miêdzynarodowych,22,0
+18,1,Mê¿czyzna,2,19,Nauk Politycznych i Stosunków Miêdzynarodowych,22,0
+19,0,Kobieta,1,19,Pedagogiczny,26,0
+20,0,Kobieta,1,19,Pedagogiczny,26,0
+21,1,Kobieta,1,19,Uniwersyteckie Kolegium Kszta³cenia Nauczycieli Jêzyka Angielskiego,31,1
+22,1,Mê¿czyzna,2,19,Uniwersyteckie Kolegium Kszta³cenia Nauczycieli Jêzyka Angielskiego,31,0
+23,0,Kobieta,1,19,Zarz¹dzania,33,0
+24,1,Mê¿czyzna,2,19,Zarz¹dzania,33,0
+25,1,Mê¿czyzna,2,19,Zarz¹dzania,33,0
+26,0,Kobieta,1,20,Biologii,1,0
+27,1,Mê¿czyzna,2,20,Filozofii i Socjologii,6,0
+28,0,Mê¿czyzna,2,20,Filozofii i Socjologii,6,0
+29,0,Kobieta,1,20,Fizyki,7,0
+30,1,Mê¿czyzna,2,20,Geografii i Studiów Regionalnych,8,1
+31,0,Mê¿czyzna,2,20,Geografii i Studiów Regionalnych,8,0
+32,1,Kobieta,1,20,Geologii,9,1
+33,1,Mê¿czyzna,2,20,Geologii,9,0
+34,1,Mê¿czyzna,2,20,Instytut Anglistyki,11,0
+35,1,Kobieta,1,20,Instytut Komunikacji Specjalistycznej i Interkulturowej,14,1
+36,1,Kobieta,1,20,Instytut Lingwistyki Stosowanej,15,0
+37,1,Kobieta,1,20,Instytut Nauk Politycznych,16,1
+38,1,Kobieta,1,20,Instytut Profilaktyki Spo³ecznej i Resocjalizacji,17,0
+39,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,1
+40,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+41,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+42,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+43,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,1
+44,0,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+45,0,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+46,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+47,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+48,0,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+49,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+50,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+51,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+52,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,0
+53,1,Mê¿czyzna,2,20,"Matematyki, Informatyki i Mechaniki",19,1
+54,0,Kobieta,1,20,Nauk Ekonomicznych,21,0
+55,1,Mê¿czyzna,2,20,Nauk Ekonomicznych,21,1
+56,1,Mê¿czyzna,2,20,Nauk Ekonomicznych,21,0
+57,0,Mê¿czyzna,2,20,Nauk Ekonomicznych,21,0
+58,1,Mê¿czyzna,2,20,Nauk Ekonomicznych,21,1
+59,1,Mê¿czyzna,2,20,Nauk Ekonomicznych,21,0
+60,0,Kobieta,1,20,Nauk Ekonomicznych,21,0
+61,0,Kobieta,1,20,Nauk Politycznych i Stosunków Miêdzynarodowych,22,0
+62,1,Mê¿czyzna,2,20,Nauk Politycznych i Stosunków Miêdzynarodowych,22,1
+63,1,Mê¿czyzna,2,20,Nauk Politycznych i Stosunków Miêdzynarodowych,22,0
+64,0,Mê¿czyzna,2,20,Neofilologii,23,0
+65,0,Kobieta,1,20,Instytut Anglistyki,11,1
+66,1,Mê¿czyzna,2,20,Oœrodek Studiów Amerykañskich,25,1
+67,1,Mê¿czyzna,2,20,Polonistyki,27,0
+68,0,Mê¿czyzna,2,20,Prawa i Administracji,28,0
+69,0,Mê¿czyzna,2,20,Prawa i Administracji,28,0
+70,0,Kobieta,1,20,Psychologii,29,0
+71,1,Kobieta,1,20,Psychologii,29,0
+72,1,Mê¿czyzna,2,20,Psychologii,29,1
+73,0,Kobieta,1,20,Psychologii,29,0
+74,1,Mê¿czyzna,2,20,Psychologii,29,1
+75,1,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+76,1,Mê¿czyzna,2,20,Zarz¹dzania,33,1
+77,1,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+78,0,Kobieta,1,20,Zarz¹dzania,33,1
+79,1,Mê¿czyzna,2,20,Zarz¹dzania,33,1
+80,1,Mê¿czyzna,2,20,Zarz¹dzania,33,1
+81,1,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+82,1,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+83,1,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+84,1,Mê¿czyzna,2,20,Zarz¹dzania,33,1
+85,0,Kobieta,1,20,Zarz¹dzania,33,0
+86,1,Mê¿czyzna,2,20,Zarz¹dzania,33,1
+87,1,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+88,0,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+89,1,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+90,1,Mê¿czyzna,2,20,Zarz¹dzania,33,0
+91,0,Mê¿czyzna,2,20,Zarz¹dzania,33,1
+92,1,Mê¿czyzna,2,20,Zarz¹dzania,33,1
+93,1,Mê¿czyzna,2,21,Dziennikarstwa i Nauk Politycznych,4,1
+94,0,Kobieta,1,21,"Dziennikarstwa, Informacji i Bibliologii",5,0
+95,1,Kobieta,1,21,"Dziennikarstwa, Informacji i Bibliologii",5,1
+96,0,Kobieta,1,21,Filozofii i Socjologii,6,0
+97,1,Mê¿czyzna,2,21,Fizyki,7,0
+98,1,Kobieta,1,21,Lingwistyki Stosowanej,18,1
+99,1,Mê¿czyzna,2,21,Lingwistyki Stosowanej,18,0
+100,1,Kobieta,1,21,"Matematyki, Informatyki i Mechaniki",19,0
+101,0,Mê¿czyzna,2,21,"Matematyki, Informatyki i Mechaniki",19,0
+102,0,Mê¿czyzna,2,21,"Matematyki, Informatyki i Mechaniki",19,0
+103,1,Mê¿czyzna,2,21,"Matematyki, Informatyki i Mechaniki",19,1
+104,1,Mê¿czyzna,2,21,"Matematyki, Informatyki i Mechaniki",19,1
+105,1,Mê¿czyzna,2,21,"Matematyki, Informatyki i Mechaniki",19,1
+106,0,Mê¿czyzna,2,21,"Matematyki, Informatyki i Mechaniki",19,0
+107,1,Mê¿czyzna,2,21,"Matematyki, Informatyki i Mechaniki",19,1
+108,1,Mê¿czyzna,2,21,"Matematyki, Informatyki i Mechaniki",19,0
+109,1,Mê¿czyzna,2,21,Miêdzywydzia³owe Indywidualne Studia Matematyczno-Przyrodnicze,20,0
+110,1,Mê¿czyzna,2,21,Nauk Ekonomicznych,21,1
+111,0,Kobieta,1,21,Nauk Ekonomicznych,21,0
+112,1,Mê¿czyzna,2,21,Nauk Ekonomicznych,21,0
+113,1,Mê¿czyzna,2,21,Nauk Ekonomicznych,21,1
+114,1,Mê¿czyzna,2,21,Nauk Ekonomicznych,21,1
+115,1,Mê¿czyzna,2,21,Nauk Politycznych i Stosunków Miêdzynarodowych,22,1
+116,0,Kobieta,1,21,Nauk Politycznych i Stosunków Miêdzynarodowych,22,1
+117,1,Mê¿czyzna,2,21,Nauk Politycznych i Stosunków Miêdzynarodowych,22,1
+118,0,Mê¿czyzna,2,21,Nauk Politycznych i Stosunków Miêdzynarodowych,22,0
+119,1,Mê¿czyzna,2,21,Oœrodek Studiów Amerykañskich,25,1
+120,0,Kobieta,1,21,Pedagogiczny,26,0
+121,1,Mê¿czyzna,2,21,Prawa i Administracji,28,0
+122,0,Mê¿czyzna,2,21,Prawa i Administracji,28,0
+123,1,Mê¿czyzna,2,21,Prawa i Administracji,28,1
+124,1,Mê¿czyzna,2,21,Prawa i Administracji,28,1
+125,0,Mê¿czyzna,2,21,Psychologii,29,0
+126,1,Mê¿czyzna,2,21,Psychologii,29,0
+127,1,Mê¿czyzna,2,21,Psychologii,29,1
+128,1,Mê¿czyzna,2,21,Stosowanych Nauk Spo³ecznych i Resocjalizacji,30,0
+129,1,Mê¿czyzna,2,21,Uniwersyteckie Kolegium Kszta³cenia Nauczycieli Jêzyka Angielskiego,31,0
+130,1,Mê¿czyzna,2,21,Zarz¹dzania,33,0
+131,1,Mê¿czyzna,2,21,Zarz¹dzania,33,1
+132,1,Mê¿czyzna,2,21,Zarz¹dzania,33,0
+133,1,Mê¿czyzna,2,21,Zarz¹dzania,33,0
+134,0,Mê¿czyzna,2,21,Zarz¹dzania,33,1
+135,1,Mê¿czyzna,2,21,Zarz¹dzania,33,1
+136,0,Mê¿czyzna,2,21,Zarz¹dzania,33,0
+137,1,Mê¿czyzna,2,21,Zarz¹dzania,33,1
+138,1,Mê¿czyzna,2,21,Zarz¹dzania,33,1
+139,1,Mê¿czyzna,2,21,Zarz¹dzania,33,0
+140,0,Mê¿czyzna,2,22,Centrum Studiów Latynoamerykañskich ,2,0
+141,1,Mê¿czyzna,2,22,Chemii,3,0
+142,1,Mê¿czyzna,2,22,"Dziennikarstwa, Informacji i Bibliologii",5,1
+143,1,Mê¿czyzna,2,22,"Dziennikarstwa, Informacji i Bibliologii",5,0
+144,1,Mê¿czyzna,2,22,"Dziennikarstwa, Informacji i Bibliologii",5,0
+145,1,Kobieta,1,22,"Dziennikarstwa, Informacji i Bibliologii",5,0
+146,1,Mê¿czyzna,2,22,Fizyki,7,0
+147,0,Kobieta,1,22,Instytut Profilaktyki Spo³ecznej i Resocjalizacji,17,0
+148,1,Mê¿czyzna,2,22,"Matematyki, Informatyki i Mechaniki",19,1
+149,1,Mê¿czyzna,2,22,"Matematyki, Informatyki i Mechaniki",19,0
+150,1,Mê¿czyzna,2,22,"Matematyki, Informatyki i Mechaniki",19,0
+151,1,Mê¿czyzna,2,22,"Matematyki, Informatyki i Mechaniki",19,1
+152,1,Mê¿czyzna,2,22,"Matematyki, Informatyki i Mechaniki",19,0
+153,1,Mê¿czyzna,2,22,"Matematyki, Informatyki i Mechaniki",19,0
+154,0,Mê¿czyzna,2,22,"Matematyki, Informatyki i Mechaniki",19,0
+155,1,Mê¿czyzna,2,22,"Matematyki, Informatyki i Mechaniki",19,1
+156,1,Mê¿czyzna,2,22,Nauk Ekonomicznych,21,1
+157,0,Mê¿czyzna,2,22,Nauk Politycznych i Stosunków Miêdzynarodowych,22,0
+158,0,Kobieta,1,22,Neofilologii,23,1
+159,1,Mê¿czyzna,2,22,Orientalistyczny,24,1
+160,0,Kobieta,1,22,Pedagogiczny,26,0
+161,0,Mê¿czyzna,2,22,Zarz¹dzania,33,0
+162,1,Mê¿czyzna,2,22,Zarz¹dzania,33,1
+163,1,Mê¿czyzna,2,22,Zarz¹dzania,33,0
+164,0,Kobieta,1,22,Zarz¹dzania,33,0
+165,1,Mê¿czyzna,2,22,Zarz¹dzania,33,0
+166,1,Mê¿czyzna,2,23,"Dziennikarstwa, Informacji i Bibliologii",5,0
+167,1,Mê¿czyzna,2,23,Geografii i Studiów Regionalnych,8,0
+168,0,Kobieta,1,23,Germanistyki,10,0
+169,1,Mê¿czyzna,2,23,Instytut Historyczny,13,1
+170,1,Mê¿czyzna,2,23,Instytut Historyczny,13,0
+171,1,Mê¿czyzna,2,23,Instytut Komunikacji Specjalistycznej i Interkulturowej,14,0
+172,0,Kobieta,1,23,"Matematyki, Informatyki i Mechaniki",19,0
+173,1,Mê¿czyzna,2,23,"Matematyki, Informatyki i Mechaniki",19,1
+174,0,Mê¿czyzna,2,23,"Matematyki, Informatyki i Mechaniki",19,0
+175,0,Mê¿czyzna,2,23,"Matematyki, Informatyki i Mechaniki",19,0
+176,1,Mê¿czyzna,2,23,Nauk Ekonomicznych,21,0
+177,0,Mê¿czyzna,2,23,Nauk Politycznych i Stosunków Miêdzynarodowych,22,0
+178,1,Mê¿czyzna,2,23,Nauk Politycznych i Stosunków Miêdzynarodowych,22,0
+179,1,Mê¿czyzna,2,23,Prawa i Administracji,28,1
+180,0,Kobieta,1,23,Psychologii,29,0
+181,1,Mê¿czyzna,2,23,Zarz¹dzania,33,0
+182,1,Mê¿czyzna,2,24,Geografii i Studiów Regionalnych,8,1
+183,0,Kobieta,1,24,Instytut Komunikacji Specjalistycznej i Interkulturowej,14,0
+184,1,Mê¿czyzna,2,24,"Matematyki, Informatyki i Mechaniki",19,1
+185,1,Mê¿czyzna,2,24,"Matematyki, Informatyki i Mechaniki",19,1
+186,1,Mê¿czyzna,2,24,"Matematyki, Informatyki i Mechaniki",19,0
+187,1,Mê¿czyzna,2,24,"Matematyki, Informatyki i Mechaniki",19,0
+188,1,Mê¿czyzna,2,24,"Matematyki, Informatyki i Mechaniki",19,0
+189,1,Mê¿czyzna,2,24,Psychologii,29,1
+190,0,Mê¿czyzna,2,25,"Matematyki, Informatyki i Mechaniki",19,0
+191,1,Mê¿czyzna,2,25,"Matematyki, Informatyki i Mechaniki",19,1
+192,1,Kobieta,1,25,Zarz¹dzania,33,0
+193,1,Mê¿czyzna,2,25,Zarz¹dzania,33,1
+194,1,Mê¿czyzna,2,26,"Matematyki, Informatyki i Mechaniki",19,0
+195,1,Mê¿czyzna,2,26,Psychologii,29,1
+196,1,Kobieta,1,28,Psychologii,29,0
+197,0,Mê¿czyzna,2,28,Zarz¹dzania,33,0
+198,1,Kobieta,1,28,Zarz¹dzania,33,0
+199,0,Kobieta,1,37,Uniwersyteckie Kolegium Kszta³cenia Nauczycieli Jêzyka Francuskiego,32,0
