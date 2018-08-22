@@ -16,7 +16,7 @@ Wstępnie przetworzone dane dostępne są w pliku **1. Dane.xlsm** w arkuszu *Wy
 ## Założenia 
 Podczas tworzenia tego przypadku przyjąłem następujące założenia:
 * model musi reagować dynamicznie na zmiany w danych;
-* dany muszą być przechowywane w kontenerze, który może zostać użyty w różnych narzędziach analitycznych;
+* dane muszą być przechowywane w kontenerze, który może zostać użyty w różnych narzędziach analitycznych;
 * zastosowanie automatyzacji zadań trywialnych;
 * obranie ścieżki wykonania nie najkrótszej  (choć jest wspomniane o możliwych działaniach), ale pokazującą wykorzystanie różnych technologii.
 ## Workflow
