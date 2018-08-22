@@ -12,7 +12,7 @@ Do analizy wykorzystamy dane zebrane poprzez [Formularz Google](https://www.goog
 * ujednolicenie wyrażeń podawanych przez ankietowanych w pytaniach otwartych;
 * zmiana kolumny z podanym mailem na kolumnę o typie Prawda/Fałsz, czy ankietowany  podał e-maila (za pomocą narzędzia Power Query -> Dodaj kolumnę warunkową -> dla wartości *null* przypisać *Fałsz* w przeciwnym razie *Prawda*).
 
-Wstępnie przetworzone dane dostępne są w pliku **1. Dane.xlsm** w arkuszu *Wyniki ankiety*.
+Wstępnie przetworzone dane dostępne są w pliku **1a. Dane.xlsm** w arkuszu *Wyniki ankiety*.
 ## Założenia 
 Podczas tworzenia tego przypadku przyjąłem następujące założenia:
 * model musi reagować dynamicznie na zmiany w danych;
