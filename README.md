@@ -7,7 +7,7 @@ Celem opisywanego przypadku jest analiza wyników ankiety dostarczonych przez kl
 3. Jakie ma preferencję (co do przedmiotu i formuły projektu)?
 4. Jakie i jak duże są przeszkody przeszkadzające odbiorcy w uczestnictwie w projekcie?
 
-Do analizy wykorzystamy dane zebrane poprzez [Formularz Google](https://www.google.com/intl/pl_pl/forms/about/) oraz wyeksportowane do pliku *.xls. Dane zebrane przez ankietę zostały wstępnie przetworzone:
+Do analizy wykorzystamy dane zebrane poprzez [Formularz Google](https://www.google.com/intl/pl_pl/forms/about/), które wyeksportowane do pliku *.xls. Dane zebrane przez ankietę zostały wstępnie przetworzone:
 * odrzucenie niepoprawnych wpisów (wierszy/rekordów);
 * ujednolicenie wyrażeń podawanych przez ankietowanych w pytaniach otwartych;
 * zmiana kolumny z podanym mailem na kolumnę o typie Prawda/Fałsz, czy ankietowany  podał e-maila (za pomocą narzędzia Power Query -> Dodaj kolumnę warunkową -> dla wartości *null* przypisać *Fałsz* w przeciwnym razie *Prawda*).
