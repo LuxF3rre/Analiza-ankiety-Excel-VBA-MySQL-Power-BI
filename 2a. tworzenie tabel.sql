@@ -67,7 +67,7 @@ CREATE TABLE odpowiedzi (
     FOREIGN KEY (id_wydzial) REFERENCES wydzial(id_wydzial)
 );
 
---
+-- Łączy udzielone odpowiedzi z wybranymi grami regularnymi.
 CREATE TABLE przech_odp_gry_regularne (
 	id_przech_odp_regularne_gry int UNSIGNED NOT NULL AUTO_INCREMENT,
   	id_odp int UNSIGNED NOT NULL,	
@@ -77,7 +77,7 @@ CREATE TABLE przech_odp_gry_regularne (
     FOREIGN KEY (id_gry_regularne) REFERENCES gry_regularne(id_gry_regularne)
 );
 
---
+-- Łączy udzielone odpowiedzi z wybranymi grami turniejowymi.
 CREATE TABLE przech_odp_gry_turniejowe (
 	id_przech_odp_gry_turniejowe int UNSIGNED NOT NULL AUTO_INCREMENT,
   	id_odp int UNSIGNED NOT NULL,	
@@ -87,7 +87,7 @@ CREATE TABLE przech_odp_gry_turniejowe (
     FOREIGN KEY (id_gry_turniejowe) REFERENCES gry_turniejowe(id_gry_turniejowe)
 );
 
--- 
+-- Łączy udzielone odpowiedzi z odpowiedziami zainteresowania e-sportem.
 CREATE TABLE przech_odp_zainteresowanie_esport (
 	id_przech_odp_zainteresowanie_esport int UNSIGNED NOT NULL AUTO_INCREMENT,
   	id_odp int UNSIGNED NOT NULL,	
@@ -97,7 +97,7 @@ CREATE TABLE przech_odp_zainteresowanie_esport (
     FOREIGN KEY (id_zainteresowanie_esport) REFERENCES zainteresowanie_esport(id_zainteresowanie_esport)
 );
 
---
+-- Łączy udzielone odpowiedzi z odpowiedziami zainteresowania turniejem.
 CREATE TABLE przech_odp_zainteresowanie_turniej (
 	id_przech_odp_zainteresowanie_turniej int UNSIGNED NOT NULL AUTO_INCREMENT,
   	id_odp int UNSIGNED NOT NULL,	
@@ -107,7 +107,7 @@ CREATE TABLE przech_odp_zainteresowanie_turniej (
     FOREIGN KEY (id_zainteresowanie_turniej) REFERENCES zainteresowanie_turniej(id_zainteresowanie_turniej)
 );
 
---
+-- Łączy udzielone odpowiedzi z odpowiedziami o stanie drużyny.
 CREATE TABLE przech_odp_druzyny (
 	id_przech_odp_druzyny int UNSIGNED NOT NULL AUTO_INCREMENT,
   	id_odp int UNSIGNED NOT NULL,	
