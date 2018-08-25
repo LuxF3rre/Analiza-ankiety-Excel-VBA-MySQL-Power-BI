@@ -8,8 +8,8 @@ Celem opisywanego przypadku jest analiza wyników ankiety dostarczonych przez kl
 
 Do analizy wykorzystamy dane zebrane poprzez [Formularz Google](https://www.google.com/intl/pl_pl/forms/about/), które zostały wyeksportowane do pliku *.xls. Dane zebrane przez ankietę zostały wstępnie przetworzone:
 * odrzucenie niepoprawnych wpisów;
-* ujednolicenie wyrażeń podawanych przez ankietowanych w pytaniach otwartych (przez wyrażenia regularne);
-* zmiana kolumny z podanym adresem e-mail na kolumnę o typie Prawda/Fałsz *"Czy podał mail"* (za pomocą narzędzia Power Query -> Dodaj kolumnę warunkową -> dla wartości *null* przypisać *Fałsz* w przeciwnym razie *Prawda*).
+* ujednolicenie wyrażeń podawanych przez ankietowanych w pytaniach otwartych (za pomocą wyrażeń regularnych);
+* zmiana kolumny z podanym adresem e-mail na kolumnę o typie Prawda/Fałsz *"Czy podał mail"* (za pomocą narzędzia Power Query -> Dodaj kolumnę warunkową -> dla wartości `null` przypisać `Fałsz` w przeciwnym razie `Prawda`).
 
 Wstępnie przetworzone dane dostępne są w pliku [**1a. Dane.xlsm**](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/1a.%20Dane.xlsm) w arkuszu *Wyniki ankiety*.
 ## Założenia 
