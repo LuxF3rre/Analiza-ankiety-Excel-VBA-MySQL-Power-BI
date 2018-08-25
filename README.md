@@ -18,7 +18,7 @@ Podczas tworzenia tego przypadku przyjąłem następujące założenia:
 * dane muszą być przechowywane w kontenerze, który może zostać użyty w różnych narzędziach analitycznych;
 * zastosowanie automatyzacji zadań trywialnych;
 * obranie ścieżki wykonania nie najkrótszej (choć jest wspomniane o możliwych działaniach), ale pokazującej wykorzystanie różnych technologii;
-* optymalizacja wykorzystania pamięci.
+* optymalizacja kodu.
 ## Workflow
 Zastosowano następujące kroki:
 1. Import wyników ankiety do Excela.
