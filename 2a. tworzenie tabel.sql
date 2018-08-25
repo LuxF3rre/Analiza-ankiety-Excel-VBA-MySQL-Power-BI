@@ -18,7 +18,7 @@ CREATE DATABASE IF NOT EXISTS wyniki_ankiety;
 use wyniki_ankiety;
 
 -- Wybiera kodowanie.
- SET NAMES utf8;
+SET NAMES utf8;
 
 -- Przechowuje tytuły gier, które są grane regularnie.
 CREATE TABLE IF NOT EXISTS gry_regularne (
