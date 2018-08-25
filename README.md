@@ -31,7 +31,7 @@ Zastosowano następujące kroki:
 8. Korekta relacji w modelu Power BI.
 9. Stworzenie raportów w Power BI.
 ## Schemat tabel w relacyjnej bazie danych
-![Schemat tabel w relacyjnej bazie danych](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/schemat%20tabel.png)
+![Schemat tabel w relacyjnej bazie danych](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/Pliki%20pomocnicze/schemat%20tabel.png)
 ## Microsoft Excel
 ### Tworzenie tabel przy użyciu Power Query
 
