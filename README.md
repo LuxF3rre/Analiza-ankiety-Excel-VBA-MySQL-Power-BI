@@ -36,7 +36,43 @@ Zastosowano następujące kroki:
 ### Tworzenie tabel przy użyciu Power Query
 
 ### Automatyczny eksport tabel do *.csv za pomocą VBA
-
+```
+' Eksportuje wszystkie arkusze, oprócz arkusza "Wyniki ankiety" do plików *.csv z kodowaniem UTF-8.
+' Uwaga: zapisuje plik przed eksportem.
+Sub eksportDoCSVUTF8()
+    Dim arkusz As Excel.Worksheet
+    Dim sciezkaZapisu As String
+    Dim nazwaPliku As String
+    Dim formatPliku As Byte
+    
+    nazwaPliku = ThisWorkbook.FullName
+    formatPliku = ThisWorkbook.FileFormat
+    
+    With Application
+        .ScreenUpdating = False
+        .DisplayAlerts = False
+    End With
+    
+    ThisWorkbook.SaveAs Filename:=nazwaPliku, FileFormat:=formatPliku
+    sciezkaZapisu = ActiveWorkbook.Path & "\"
+        
+    For Each arkusz In ThisWorkbook.Worksheets
+        If arkusz.Name <> "Wyniki ankiety" Then
+            Sheets(arkusz.Name).Copy
+            ActiveWorkbook.SaveAs Filename:=sciezkaZapisu & "1b. " & arkusz.Name & ".csv", FileFormat:=xlCSVUTF8
+            ActiveWorkbook.Close savechanges:=False
+            ThisWorkbook.Activate
+        End If
+    Next
+    
+    ThisWorkbook.SaveAs Filename:=nazwaPliku, FileFormat:=formatPliku
+    
+    With Application
+        .ScreenUpdating = True
+        .DisplayAlerts = True
+    End With
+End Sub
+```
 ## Oracle MySQL
 ### Tworzenie tabel w bazie danych
 
