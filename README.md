@@ -36,7 +36,7 @@ Zastosowano następujące kroki:
 ### Tworzenie tabel przy użyciu Power Query
 
 ### Automatyczny eksport tabel do *.csv za pomocą VBA
-```
+```Visual Basic
 ' Eksportuje wszystkie arkusze, oprócz arkusza "Wyniki ankiety" do plików *.csv z kodowaniem UTF-8.
 ' Uwaga: zapisuje plik przed eksportem.
 Sub eksportDoCSVUTF8()
