@@ -61,9 +61,9 @@ Warto wspomnieć o sposobie przypisania odpowiedniego `id_odp` w tabelach przech
 W celu automatyzacji eksporu tabel napisany i uruchomiony został następujący skrypt VBA ([wersja ogólna eksportująca wszystkie arkusze do *.csv UTF-8](https://github.com/LuxF3rre/Handy-VBA-Scripts/blob/master/Excel/MassExportToCSV_UTF8.vb)). Miejscem docelowym eksportu jest folder zawierający skoroszyt.
 ```vbnet
 ' Eksportuje wszystkie arkusze, oprócz arkusza "Wyniki ankiety" do plików *.csv z kodowaniem UTF-8.
-' Uwaga: zapisuje plik przed eksportem.
+' Uwaga: zapisuje plik przed eksportem, nadpisuje pliki.
+' Poniższy skrypt jest zmodyfikowaną wersją skryptu opublikowanego przez Bena Strombecka na https://stackoverflow.com/questions/10551353/saving-excel-worksheet-to-csv-files-with-filenameworksheet-name-using-vb
 Sub eksportDoCSVUTF8()
-    Dim arkusz As Excel.Worksheet
     Dim sciezkaZapisu As String
     Dim nazwaPliku As String
     Dim formatPliku As Byte
