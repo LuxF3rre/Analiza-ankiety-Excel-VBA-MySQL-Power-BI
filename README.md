@@ -57,6 +57,8 @@ Warto wspomnieć o sposobie przypisania odpowiedniego `id_odp` w tabelach przech
 1. dodana została kolumna indeksująca nazwana `id_odp` z indeksem odpowiadających odpowiedzi (kolejność wierszy odpowiada kolejności udzielanych odpowedzi);
 2. odpowiednia kolumna została podzielona ogranicznikiem (w każdym miejscu występowania, na wiersze, ogranicznik `, `);
 3. dodana została kolumna indeksująca nazwana `id_przech_odp_` z indeksem elementów tablicy przechodniej.
+
+Powyższe działania mogłyby zostać zastąpione poprzez zaimportowanie wstępnie obrobionych danych do modelu w programie Power BI, gdzie nastąpiłaby ich dalsza obróbka. Jednak w ten sposób przetworzone dane byłyby dostępne tylko dla programu Power BI.
 ### Automatyczny eksport tabel do *.csv za pomocą VBA
 W celu automatyzacji eksporu tabel napisany i uruchomiony został następujący skrypt VBA ([wersja ogólna eksportująca wszystkie arkusze do *.csv UTF-8](https://github.com/LuxF3rre/Handy-VBA-Scripts/blob/master/Excel/MassExportToCSV_UTF8.vb)). Miejscem docelowym eksportu jest folder zawierający skoroszyt.
 ```vbnet
@@ -96,6 +98,7 @@ Sub eksportDoCSVUTF8()
     End With
 End Sub
 ```
+W przypadku wykorzystania dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) krok ten się pomija.
 ## Oracle MySQL
 ### Tworzenie tabel w bazie danych
 
