@@ -1,36 +1,36 @@
 ﻿id_przech_odp_gry_turniejowe,id_odp,id_gry_turniejowe,Gry turniej
 1,1,3,Counter-Strike: Global Offensive
-4,3,3,Counter-Strike: Global Offensive
-8,6,3,Counter-Strike: Global Offensive
-14,9,3,Counter-Strike: Global Offensive
-19,12,3,Counter-Strike: Global Offensive
-30,21,3,Counter-Strike: Global Offensive
 2,2,15,League of legends
 3,3,15,League of legends
-7,5,15,League of legends
-10,7,15,League of legends
-13,9,15,League of legends
-18,12,15,League of legends
-29,21,15,League of legends
-31,22,15,League of legends
-26,18,4,FIFA
+4,3,3,Counter-Strike: Global Offensive
 5,4,21,Nie dotyczy
-23,15,21,Nie dotyczy
-25,17,21,Nie dotyczy
-27,19,21,Nie dotyczy
-28,20,21,Nie dotyczy
-32,23,21,Nie dotyczy
 6,5,14,Hearthstone
-17,11,14,Hearthstone
+7,5,15,League of legends
+8,6,3,Counter-Strike: Global Offensive
 9,6,7,Quake Live
-15,10,9,Dota 2
-22,14,9,Dota 2
+10,7,15,League of legends
 11,7,16,Heroes of Might and Magic 3
 12,8,16,Heroes of Might and Magic 3
-20,13,16,Heroes of Might and Magic 3
+13,9,15,League of legends
+14,9,3,Counter-Strike: Global Offensive
+15,10,9,Dota 2
 16,11,22,Overwatch
+17,11,14,Hearthstone
+18,12,15,League of legends
+19,12,3,Counter-Strike: Global Offensive
+20,13,16,Heroes of Might and Magic 3
 21,13,17,Heroes of Might and Magic 5
+22,14,9,Dota 2
+23,15,21,Nie dotyczy
 24,16,24,Starcraft 2
+25,17,21,Nie dotyczy
+26,18,4,FIFA
+27,19,21,Nie dotyczy
+28,20,21,Nie dotyczy
+29,21,15,League of legends
+30,21,3,Counter-Strike: Global Offensive
+31,22,15,League of legends
+32,23,21,Nie dotyczy
 33,24,15,League of legends
 34,24,3,Counter-Strike: Global Offensive
 35,25,3,Counter-Strike: Global Offensive

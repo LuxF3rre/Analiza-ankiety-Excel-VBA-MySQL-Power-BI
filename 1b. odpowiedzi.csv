@@ -1,8 +1,9 @@
 ﻿id_odp,czy_udzial,id_plec,wiek,id_wydzial,czy_mail,Płeć,Wydział
 1,0,2,18,11,0,Mężczyzna,Instytut Anglistyki
-34,1,2,20,11,0,Mężczyzna,Instytut Anglistyki
-26,0,1,20,1,0,Kobieta,Biologii
 2,1,2,18,19,0,Mężczyzna,"Matematyki, Informatyki i Mechaniki"
+3,1,2,19,6,0,Mężczyzna,Filozofii i Socjologii
+4,0,2,19,7,0,Mężczyzna,Fizyki
+5,1,2,19,12,1,Mężczyzna,Instytut Archeologii 
 6,1,2,19,19,0,Mężczyzna,"Matematyki, Informatyki i Mechaniki"
 7,1,2,19,19,1,Mężczyzna,"Matematyki, Informatyki i Mechaniki"
 8,1,2,19,19,0,Mężczyzna,"Matematyki, Informatyki i Mechaniki"
@@ -12,16 +13,6 @@
 12,0,2,19,19,1,Mężczyzna,"Matematyki, Informatyki i Mechaniki"
 13,1,2,19,19,0,Mężczyzna,"Matematyki, Informatyki i Mechaniki"
 14,1,2,19,19,0,Mężczyzna,"Matematyki, Informatyki i Mechaniki"
-3,1,2,19,6,0,Mężczyzna,Filozofii i Socjologii
-27,1,2,20,6,0,Mężczyzna,Filozofii i Socjologii
-28,0,2,20,6,0,Mężczyzna,Filozofii i Socjologii
-4,0,2,19,7,0,Mężczyzna,Fizyki
-29,0,1,20,7,0,Kobieta,Fizyki
-5,1,2,19,12,1,Mężczyzna,Instytut Archeologii 
-30,1,2,20,8,1,Mężczyzna,Geografii i Studiów Regionalnych
-31,0,2,20,8,0,Mężczyzna,Geografii i Studiów Regionalnych
-32,1,1,20,9,1,Kobieta,Geologii
-33,1,2,20,9,0,Mężczyzna,Geologii
 15,0,2,19,20,0,Mężczyzna,Międzywydziałowe Indywidualne Studia Matematyczno-Przyrodnicze
 16,1,2,19,20,0,Mężczyzna,Międzywydziałowe Indywidualne Studia Matematyczno-Przyrodnicze
 17,0,1,19,22,0,Kobieta,Nauk Politycznych i Stosunków Międzynarodowych
@@ -33,6 +24,15 @@
 23,0,1,19,33,0,Kobieta,Zarządzania
 24,1,2,19,33,0,Mężczyzna,Zarządzania
 25,1,2,19,33,0,Mężczyzna,Zarządzania
+26,0,1,20,1,0,Kobieta,Biologii
+27,1,2,20,6,0,Mężczyzna,Filozofii i Socjologii
+28,0,2,20,6,0,Mężczyzna,Filozofii i Socjologii
+29,0,1,20,7,0,Kobieta,Fizyki
+30,1,2,20,8,1,Mężczyzna,Geografii i Studiów Regionalnych
+31,0,2,20,8,0,Mężczyzna,Geografii i Studiów Regionalnych
+32,1,1,20,9,1,Kobieta,Geologii
+33,1,2,20,9,0,Mężczyzna,Geologii
+34,1,2,20,11,0,Mężczyzna,Instytut Anglistyki
 35,1,1,20,14,1,Kobieta,Instytut Komunikacji Specjalistycznej i Interkulturowej
 36,1,1,20,15,0,Kobieta,Instytut Lingwistyki Stosowanej
 37,1,1,20,16,1,Kobieta,Instytut Nauk Politycznych
