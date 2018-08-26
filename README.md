@@ -34,8 +34,31 @@ Zastosowano następujące kroki:
 ![Schemat tabel w relacyjnej bazie danych](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/Pliki%20pomocnicze/schemat%20tabel.png)
 ## Microsoft Excel
 ### Tworzenie tabel przy użyciu Power Query
+Używając narzędzia Power Query zostały stworzone i załadowane do oddzielnych arkuszy zapytania tworzące tabele:
+* słownikowe - zainteresowanie_esport, zainteresowanie_turniej, druzyny, plec;
+* normalne - gry_regularne, gry_turniejowe, wydzial, odpowiedzi;
+* przechodnie - przech_odp_gry_regularne, przech_odp_gry_turniejowe, przech_odp_zainteresowanie_esport, przech_odp_zainteresowanie_turniej, przech_odp_druzyny.
+  
+W szczegółności wykorzystano funkcję:
+* utwórz zapytanie;
+* usuń kolumny;
+* zmień nazwę kolumny;
+* sortuj rosnąco;
+* dodaj kolumnę indeksującą;
+* dodaj kolumnę warunkową;
+* podział przez ogranicznik (w każdym miejscu występowania, na wiersze, ogranicznik: `, `);
+* usuń puste, usuń duplikaty.
 
+Dzięki zastosowaniu Power Query, utworzone tabele mogą zostać odświerzone przy zmianie danych w arkuszu *"Wyniki ankiety"*.
+
+Tabele zostały tak przygotowane (sortowanie rosnącę, szukana wartość na początku zakresu), aby umożliwić prawidłowe funkcjonowanie formuly `WYSZUKAJ.PIONOWO` wykorzystanej w tabelach przechodnich w celu przypisania odpowiedziom odpowiedniego `id_` z tabel słownikowych i normalnych.
+
+Warto wspomnieć o sposobie przypisania odpowiedniego `id_odp` w tabelach przechodnich. Po stworzeniu zapytania i usunięciu niepotrzebnych kolumn:
+1. dodana została kolumna indeksująca nazwana `id_odp` z indeksem odpowiadających odpowiedzi (kolejność wierszy odpowiada kolejności udzielanych odpowedzi);
+2. dodana została kolumna indeksująca nazwana `id_przech_odp_` z indeksem elementów tablicy przechodniej.
+3. odpowiednia kolumna została podzielona ogranicznikiem (w każdym miejscu występowania, na wiersze, ogranicznik `, `);
 ### Automatyczny eksport tabel do *.csv za pomocą VBA
+W celu automatyzacji eksporu tabel napisany i uruchomiony został następujący skrypt VBA ([wersja ogólna eksportująca wszystkie arkusze do *.csv UTF-8](https://github.com/LuxF3rre/Handy-VBA-Scripts/blob/master/Excel/MassExportToCSV_UTF8.vb)). Miejscem docelowym eksportu jest folder zawierający skoroszyt.
 ```vbnet
 ' Eksportuje wszystkie arkusze, oprócz arkusza "Wyniki ankiety" do plików *.csv z kodowaniem UTF-8.
 ' Uwaga: zapisuje plik przed eksportem.
