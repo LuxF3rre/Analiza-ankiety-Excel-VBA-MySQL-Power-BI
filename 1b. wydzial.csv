@@ -1,34 +1,34 @@
-﻿nazwa_wydzialu,id_wydzial
-Biologii,1
-Centrum Studiów Latynoamerykańskich ,2
-Chemii,3
-Dziennikarstwa i Nauk Politycznych,4
-"Dziennikarstwa, Informacji i Bibliologii",5
-Filozofii i Socjologii,6
-Fizyki,7
-Geografii i Studiów Regionalnych,8
-Geologii,9
-Germanistyki,10
-Instytut Anglistyki,11
-Instytut Archeologii ,12
-Instytut Historyczny,13
-Instytut Komunikacji Specjalistycznej i Interkulturowej,14
-Instytut Lingwistyki Stosowanej,15
-Instytut Nauk Politycznych,16
-Instytut Profilaktyki Społecznej i Resocjalizacji,17
-Lingwistyki Stosowanej,18
-"Matematyki, Informatyki i Mechaniki",19
-Międzywydziałowe Indywidualne Studia Matematyczno-Przyrodnicze,20
-Nauk Ekonomicznych,21
-Nauk Politycznych i Stosunków Międzynarodowych,22
-Neofilologii,23
-Orientalistyczny,24
-Ośrodek Studiów Amerykańskich,25
-Pedagogiczny,26
-Polonistyki,27
-Prawa i Administracji,28
-Psychologii,29
-Stosowanych Nauk Społecznych i Resocjalizacji,30
-Uniwersyteckie Kolegium Kształcenia Nauczycieli Języka Angielskiego,31
-Uniwersyteckie Kolegium Kształcenia Nauczycieli Języka Francuskiego,32
-Zarządzania,33
+﻿id_wydzial,nazwa_wydzialu
+1,Biologii
+2,Centrum Studiów Latynoamerykańskich 
+3,Chemii
+4,Dziennikarstwa i Nauk Politycznych
+5,"Dziennikarstwa, Informacji i Bibliologii"
+6,Filozofii i Socjologii
+7,Fizyki
+8,Geografii i Studiów Regionalnych
+9,Geologii
+10,Germanistyki
+11,Instytut Anglistyki
+12,Instytut Archeologii 
+13,Instytut Historyczny
+14,Instytut Komunikacji Specjalistycznej i Interkulturowej
+15,Instytut Lingwistyki Stosowanej
+16,Instytut Nauk Politycznych
+17,Instytut Profilaktyki Społecznej i Resocjalizacji
+18,Lingwistyki Stosowanej
+19,"Matematyki, Informatyki i Mechaniki"
+20,Międzywydziałowe Indywidualne Studia Matematyczno-Przyrodnicze
+21,Nauk Ekonomicznych
+22,Nauk Politycznych i Stosunków Międzynarodowych
+23,Neofilologii
+24,Orientalistyczny
+25,Ośrodek Studiów Amerykańskich
+26,Pedagogiczny
+27,Polonistyki
+28,Prawa i Administracji
+29,Psychologii
+30,Stosowanych Nauk Społecznych i Resocjalizacji
+31,Uniwersyteckie Kolegium Kształcenia Nauczycieli Języka Angielskiego
+32,Uniwersyteckie Kolegium Kształcenia Nauczycieli Języka Francuskiego
+33,Zarządzania

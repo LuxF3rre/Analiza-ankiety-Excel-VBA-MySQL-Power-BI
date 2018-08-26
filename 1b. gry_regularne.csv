@@ -1,38 +1,38 @@
-﻿tytul_gry,id_gry_regularne
-Assetto Corsa,1
-Battlefield,2
-Call of Duty,3
-Counter-Strike: Global Offensive,4
-Crypt of Necrodancer,5
-Diablo III,6
-Dota 2,7
-F1 2016,8
-Factorio,10
-FIFA,9
-Gran Turismo,11
-Gwint,12
-H1Z1: King of the Kill,13
-Hearthstone,14
-Heroes of Might and Magic 3,15
-Heroes of the Storm,16
-League of legends,17
-Mortal Kombat,18
-NFS,19
-NHL,20
-Nie gram w nic regularnie,21
-Overwatch,22
-Paladins  ,24
-PES,23
-Quake Live,25
-Rocket League,26
-Star Wars Battlefront,27
-Starcraft 2,28
-Team Fortress 2,29
-The Elder Scrolls V: Skyrim,30
-Tom Clancy’s Rainbow Six Siege,31
-TrackMania Nations Forever,32
-Warhammer 40000: Dawn of War II,33
-Wiedźmin,34
-World of Tanks,35
-World of Warcraft,36
-XCOM,37
+﻿id_gry_regularne,tytul_gry
+1,Assetto Corsa
+2,Battlefield
+3,Call of Duty
+4,Counter-Strike: Global Offensive
+5,Crypt of Necrodancer
+6,Diablo III
+7,Dota 2
+8,F1 2016
+10,Factorio
+9,FIFA
+11,Gran Turismo
+12,Gwint
+13,H1Z1: King of the Kill
+14,Hearthstone
+15,Heroes of Might and Magic 3
+16,Heroes of the Storm
+17,League of legends
+18,Mortal Kombat
+19,NFS
+20,NHL
+21,Nie gram w nic regularnie
+22,Overwatch
+24,Paladins  
+23,PES
+25,Quake Live
+26,Rocket League
+27,Star Wars Battlefront
+28,Starcraft 2
+29,Team Fortress 2
+30,The Elder Scrolls V: Skyrim
+31,Tom Clancy’s Rainbow Six Siege
+32,TrackMania Nations Forever
+33,Warhammer 40000: Dawn of War II
+34,Wiedźmin
+35,World of Tanks
+36,World of Warcraft
+37,XCOM

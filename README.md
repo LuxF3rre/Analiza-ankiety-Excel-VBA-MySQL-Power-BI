@@ -23,13 +23,12 @@ Podczas tworzenia tego przypadku przyjąłem następujące założenia:
 Zastosowano następujące kroki:
 1. Import wyników ankiety do Excela.
 2. Tworzenie tabel przy użyciu Power Query.
-3. Dodanie wymaganych kolumn.
-4. Zautomatyzowany przez VBA eksport tabel do *.csv.
-5. Stworzenie bazy danych, tabel i widoków w serwerze MySQL.
-6. Import danych z plików *.csv do odpowiednich tabel w bazie danych.
-7. Import widoków z bazy danych do programu Power BI.
-8. Korekta relacji w modelu Power BI.
-9. Stworzenie raportów w Power BI.
+3. Zautomatyzowany przez VBA eksport tabel do *.csv.
+4. Stworzenie bazy danych, tabel i widoków w serwerze MySQL.
+5. Import danych z plików *.csv do odpowiednich tabel w bazie danych.
+6. Import widoków z bazy danych do programu Power BI.
+7. Korekta relacji w modelu Power BI.
+8. Stworzenie raportów w Power BI.
 ## Schemat tabel w relacyjnej bazie danych
 ![Schemat tabel w relacyjnej bazie danych](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/Pliki%20pomocnicze/schemat%20tabel.png)
 ## Microsoft Excel
@@ -47,11 +46,12 @@ W szczegółności wykorzystano funkcje:
 * dodaj kolumnę indeksującą;
 * dodaj kolumnę warunkową;
 * podział przez ogranicznik (w każdym miejscu występowania, na wiersze, ogranicznik: `, `);
-* usuń puste, usuń duplikaty.
+* usuń puste, usuń duplikaty;
+* scal zapytania.
 
 Dzięki zastosowaniu Power Query, utworzone tabele mogą zostać odświerzone przy zmianie danych w arkuszu *"Wyniki ankiety"*.
 
-Tabele zostały tak przygotowane (sortowanie rosnącę, szukana wartość na początku zakresu), aby umożliwić prawidłowe funkcjonowanie formuly `WYSZUKAJ.PIONOWO` wykorzystanej w tabelach przechodnich w celu przypisania odpowiedziom odpowiedniego `id_` z tabel słownikowych i normalnych.
+W celu przypisania odpowiedziom odpowiedniego `id_` z tabel słownikowych i normalnych do tabel przechodnich wykrzystano funkcję scal zapytania w edytorze Power Query.
 
 Warto wspomnieć o sposobie przypisania odpowiedniego `id_odp` w tabelach przechodnich. Po stworzeniu zapytania i usunięciu niepotrzebnych kolumn:
 1. dodana została kolumna indeksująca nazwana `id_odp` z indeksem odpowiadających odpowiedzi (kolejność wierszy odpowiada kolejności udzielanych odpowedzi);

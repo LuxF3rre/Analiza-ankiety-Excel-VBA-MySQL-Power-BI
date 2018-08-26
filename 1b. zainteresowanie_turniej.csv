@@ -1,5 +1,5 @@
-﻿odpowiedz,id_zainteresowanie_turniej
-Chciałbym/chciałabym uczestniczyć w imprezie (np. na Auli) gdzie prowadzone byłby rozgrywki,1
-Nie interesowałoby mnie to,2
-Oglądałbym/oglądałabym livestream z rozgrywek,3
-Śledziłbym/śledziłabym wyniki,4
+﻿id_zainteresowanie_turniej,odpowiedz
+1,Chciałbym/chciałabym uczestniczyć w imprezie (np. na Auli) gdzie prowadzone byłby rozgrywki
+2,Nie interesowałoby mnie to
+3,Oglądałbym/oglądałabym livestream z rozgrywek
+4,Śledziłbym/śledziłabym wyniki

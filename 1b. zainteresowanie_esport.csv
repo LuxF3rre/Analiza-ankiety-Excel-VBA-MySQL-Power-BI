@@ -1,6 +1,6 @@
-﻿odpowiedz,id_zainteresowanie_esport
-Nie interesuje się e-sportem,1
-Nie śledzę za często wyników lub livestreamów z rozgrywek ale wiem co to esport,3
-Nie wiem co to e-sport,2
-Tak oglądam livestreamy z rozgrywek,4
-Tak śledzę wyniki drużyn e-sportowych,5
+﻿id_zainteresowanie_esport,odpowiedz
+1,Nie interesuje się e-sportem
+3,Nie śledzę za często wyników lub livestreamów z rozgrywek ale wiem co to esport
+2,Nie wiem co to e-sport
+4,Tak oglądam livestreamy z rozgrywek
+5,Tak śledzę wyniki drużyn e-sportowych
