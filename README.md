@@ -20,7 +20,7 @@ Podczas tworzenia tego przypadku przyjąłem następujące założenia:
 * obranie ścieżki wykonania nie najkrótszej (choć jest wspomniane o możliwych działaniach), ale pokazującej wykorzystanie różnych technologii;
 * optymalizacja kodu.
 ## Workflow
-Zastosowano następujące kroki:
+Zastosowałem następujące kroki:
 1. Import wyników ankiety do Excela.
 2. Tworzenie tabel przy użyciu Power Query.
 3. Zautomatyzowany eksport tabel do *.csv przez VBA.
@@ -33,12 +33,12 @@ Zastosowano następujące kroki:
 ![Schemat tabel w relacyjnej bazie danych](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/Pliki%20pomocnicze/schemat%20tabel.png)
 ## Microsoft Excel
 ### Tworzenie tabel przy użyciu Power Query
-Używając narzędzia Power Query zostały stworzone i załadowane do oddzielnych arkuszy zapytania tworzące tabele:
+Używając narzędzia Power Query stworzyłem i załadowałem do oddzielnych arkuszy zapytania tworzące tabele:
 * słownikowe - zainteresowanie_esport, zainteresowanie_turniej, druzyny, plec;
 * normalne - gry_regularne, gry_turniejowe, wydzial, odpowiedzi;
 * przechodnie - przech_odp_gry_regularne, przech_odp_gry_turniejowe, przech_odp_zainteresowanie_esport, przech_odp_zainteresowanie_turniej, przech_odp_druzyny.
   
-W szczegółności wykorzystano funkcje:
+W szczegółności wykorzystałem funkcje:
 * utwórz zapytanie;
 * usuń kolumny;
 * zmień nazwę kolumny;
@@ -51,16 +51,18 @@ W szczegółności wykorzystano funkcje:
 
 Dzięki zastosowaniu Power Query, utworzone tabele mogą zostać odświerzone przy zmianie danych w arkuszu *"Wyniki ankiety"*.
 
-W celu przypisania odpowiedziom odpowiedniego `id_` z tabel słownikowych i normalnych do tabel przechodnich wykrzystano funkcję scal zapytania w edytorze Power Query.
+W celu przypisania odpowiedziom odpowiedniego `id_` z tabel słownikowych i normalnych do tabel przechodnich wykrzystałem funkcję *scal zapytania* w edytorze Power Query.
 
 Warto wspomnieć o sposobie przypisania odpowiedniego `id_odp` w tabelach przechodnich. Po stworzeniu zapytania i usunięciu niepotrzebnych kolumn:
-1. dodana została kolumna indeksująca nazwana `id_odp` z indeksem odpowiadających odpowiedzi (kolejność wierszy odpowiada kolejności udzielanych odpowedzi);
-2. odpowiednia kolumna została podzielona ogranicznikiem (w każdym miejscu występowania, na wiersze, ogranicznik `, `);
-3. dodana została kolumna indeksująca nazwana `id_przech_odp_` z indeksem elementów tablicy przechodniej.
+1. dodałem kolumnę indeksująca nazwana `id_odp` z indeksem odpowiadających odpowiedzi (kolejność wierszy odpowiada kolejności udzielanych odpowedzi);
+2. odpowiednią kolumnę podzieliłem ogranicznikiem (w każdym miejscu występowania, na wiersze, ogranicznik `, `);
+3. dodałem kolumnę indeksująca nazwana `id_przech_odp_` z indeksem elementów tablicy przechodniej.
 
 Powyższe działania mogłyby zostać zastąpione poprzez zaimportowanie wstępnie obrobionych danych do modelu w programie Power BI, gdzie nastąpiłaby ich dalsza obróbka. Jednak w ten sposób przetworzone dane byłyby dostępne tylko dla programu Power BI.
 ### Automatyczny eksport tabel do *.csv za pomocą VBA
-W celu automatyzacji eksporu tabel napisany i uruchomiony został następujący skrypt VBA ([wersja ogólna eksportująca wszystkie arkusze do *.csv UTF-8](https://github.com/LuxF3rre/Handy-VBA-Scripts/blob/master/Excel/MassExportToCSV_UTF8.vb)). Miejscem docelowym eksportu jest folder zawierający skoroszyt.
+W przypadku wykorzystania dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) do exportu danych, krok ten się pomija.
+
+W celu automatyzacji eksporu tabel napisałem i uruchomiłem następujący skrypt VBA ([wersja ogólna eksportująca wszystkie arkusze do *.csv UTF-8](https://github.com/LuxF3rre/Handy-VBA-Scripts/blob/master/Excel/MassExportToCSV_UTF8.vb)). Miejscem docelowym eksportu jest folder zawierający skoroszyt.
 ```vbnet
 ' Eksportuje wszystkie arkusze, oprócz arkusza "Wyniki ankiety" do plików *.csv z kodowaniem UTF-8.
 ' Uwaga: zapisuje plik przed eksportem, nadpisuje pliki.
@@ -98,10 +100,22 @@ Sub eksportDoCSVUTF8()
     End With
 End Sub
 ```
-W przypadku wykorzystania dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) krok ten się pomija.
 ## Oracle MySQL
-### Tworzenie tabel w bazie danych
+### Tworzenie bazy danych, tabel i widoków
+W celu stworzenia bazy danych, tabel i widoków uruchomiłem skrypt [**2a. tworzenie tabel.sql**](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/2a.%20tworzenie%20tabel.sql).
 
+Skypt:
+* tworzy baze danych, jeżeli nie istnieje: wyniki_ankiety;
+* stosuje kodowanie: UTF-8;
+* tworzy tabele, jeżeli nie istnieją:
+    * *słownikowe*: zainteresowanie_esport, zainteresowanie_turniej, druzyny, plec;
+    * *normalne*: gry_regularne, gry_turniejowe, wydzial, odpowiedzi;
+    * *przechodnie*: przech_odp_gry_regularne, przech_odp_gry_turniejowe, przech_odp_zainteresowanie_esport, przech_odp_zainteresowanie_turniej, przech_odp_druzyny;
+* tworzy lub zmienia widoki: Gry regularne, Gry turniejowe, Zainteresowanie e-sportem, Zainteresowanie turniejem, Stan drużyn, Odpowiedzi ankietowanych.
+
+Krok można wykonać równocześnie z krokiem importu danych przy wykorzystaniu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) (utworzenie bazy danych i tabel, **bez widoków**). Niestety, kreator importu nie powzwala na precyzyjne określenie typów kolumn - strata na wydajności.
+
+Typy kolumn zostały tak dobrane, aby umożliwić swobodne importowanie kolejnych danych z uwzględnieniem wydajności.
 ### Import danych do bazy danych
 
 ## Microsoft Power BI
