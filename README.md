@@ -39,7 +39,7 @@ Używając narzędzia Power Query zostały stworzone i załadowane do oddzielnyc
 * normalne - gry_regularne, gry_turniejowe, wydzial, odpowiedzi;
 * przechodnie - przech_odp_gry_regularne, przech_odp_gry_turniejowe, przech_odp_zainteresowanie_esport, przech_odp_zainteresowanie_turniej, przech_odp_druzyny.
   
-W szczegółności wykorzystano funkcję:
+W szczegółności wykorzystano funkcje:
 * utwórz zapytanie;
 * usuń kolumny;
 * zmień nazwę kolumny;
@@ -55,8 +55,8 @@ Tabele zostały tak przygotowane (sortowanie rosnącę, szukana wartość na poc
 
 Warto wspomnieć o sposobie przypisania odpowiedniego `id_odp` w tabelach przechodnich. Po stworzeniu zapytania i usunięciu niepotrzebnych kolumn:
 1. dodana została kolumna indeksująca nazwana `id_odp` z indeksem odpowiadających odpowiedzi (kolejność wierszy odpowiada kolejności udzielanych odpowedzi);
-2. dodana została kolumna indeksująca nazwana `id_przech_odp_` z indeksem elementów tablicy przechodniej.
-3. odpowiednia kolumna została podzielona ogranicznikiem (w każdym miejscu występowania, na wiersze, ogranicznik `, `);
+2. odpowiednia kolumna została podzielona ogranicznikiem (w każdym miejscu występowania, na wiersze, ogranicznik `, `);
+3. dodana została kolumna indeksująca nazwana `id_przech_odp_` z indeksem elementów tablicy przechodniej.
 ### Automatyczny eksport tabel do *.csv za pomocą VBA
 W celu automatyzacji eksporu tabel napisany i uruchomiony został następujący skrypt VBA ([wersja ogólna eksportująca wszystkie arkusze do *.csv UTF-8](https://github.com/LuxF3rre/Handy-VBA-Scripts/blob/master/Excel/MassExportToCSV_UTF8.vb)). Miejscem docelowym eksportu jest folder zawierający skoroszyt.
 ```vbnet
