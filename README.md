@@ -23,7 +23,7 @@ Podczas tworzenia tego przypadku przyjąłem następujące założenia:
 Zastosowano następujące kroki:
 1. Import wyników ankiety do Excela.
 2. Tworzenie tabel przy użyciu Power Query.
-3. Zautomatyzowany przez VBA eksport tabel do *.csv.
+3. Zautomatyzowany eksport tabel do *.csv przez VBA.
 4. Stworzenie bazy danych, tabel i widoków w serwerze MySQL.
 5. Import danych z plików *.csv do odpowiednich tabel w bazie danych.
 6. Import widoków z bazy danych do programu Power BI.
