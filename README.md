@@ -113,11 +113,11 @@ Skrypt:
     * *przechodnie*: przech_odp_gry_regularne, przech_odp_gry_turniejowe, przech_odp_zainteresowanie_esport, przech_odp_zainteresowanie_turniej, przech_odp_druzyny;
 * tworzy lub zmienia widoki: Gry regularne, Gry turniejowe, Zainteresowanie e-sportem, Zainteresowanie turniejem, Stan drużyn, Odpowiedzi ankietowanych.
 
-Krok ten może być zastąpiony i równocześnie wykonany z krokiem importu danych przy wykorzystaniu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) (utworzenie bazy danych i tabel, **bez widoków**). Niestety, kreator importu nie pozwala na precyzyjne określenie typów kolumn (strata na wydajności) ani kluczy pochodnych. Analogicznie sytuacja wygląda przy tworzeniu tabel podczas importu z wykorzystaniem *Table Data Import Wizard* programu MySQL Workbench.
+Krok ten może być zastąpiony i równocześnie wykonany z krokiem importu danych przy wykorzystaniu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) (utworzenie bazy danych i tabel, **bez widoków**). Niestety, kreator importu nie pozwala na precyzyjne określenie typów kolumn (strata na wydajności) ani kluczy pochodnych. Analogicznie sytuacja wygląda przy tworzeniu tabel podczas importu z wykorzystaniem [Table Data Import Wizard](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-table.html) programu MySQL Workbench.
 
 Typy kolumn zostały tak dobrane, aby umożliwić swobodne importowanie kolejnych danych z uwzględnieniem wydajności.
 ### Import danych do bazy danych
-Kolejne dane z plików *.csv zostały zaimportowane do odpowiednich tabel za pomocą narzędzia *Table Data Import Wizard* programu MySQL Workbench. Import ten mógłby zostać wykonany również bezpośrednio z programu Excel przy użyciu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) lub np. narzędzia [mysqlimport](https://dev.mysql.com/doc/refman/8.0/en/mysqlimport.html) z wiersza poleceń.
+Kolejne dane z plików *.csv zostały zaimportowane do odpowiednich tabel za pomocą narzędzia [Table Data Import Wizard](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-table.html) programu MySQL Workbench. Import ten mógłby zostać wykonany również bezpośrednio z programu Excel przy użyciu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) lub np. narzędzia [mysqlimport](https://dev.mysql.com/doc/refman/8.0/en/mysqlimport.html) z wiersza poleceń.
 
 Pliki *.csv mogłoby również zostać zaimportowane bezpośrednio do programu Power BI.
 ## Microsoft Power BI
