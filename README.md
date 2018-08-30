@@ -8,7 +8,7 @@ Celem opisywanego przypadku jest analiza wyników ankiety dostarczonych przez kl
 
 Do analizy wykorzystamy dane zebrane poprzez [Formularz Google](https://www.google.com/intl/pl_pl/forms/about/), które zostały wyeksportowane do pliku *.xls. Dane zebrane przez ankietę zostały wstępnie przetworzone:
 * odrzucenie niepoprawnych wpisów;
-* ujednolicenie wyrażeń podawanych przez ankietowanych w pytaniach otwartych (za pomocą wyrażeń regularnych);
+* ujednolicenie wyrażeń podawanych przez ankietowanych w pytaniach otwartych (za pomocą wyrażeń regularnych; lepszym rozwiązaniem byłoby wykorzystanie następnym razem [OpenRefine](http://openrefine.org/));
 * zmiana kolumny z podanym adresem e-mail na kolumnę o typie Prawda/Fałsz *"Czy podał mail"* (za pomocą narzędzia Power Query -> Dodaj kolumnę warunkową -> dla wartości `null` przypisać `Fałsz` w przeciwnym razie `Prawda`).
 
 Wstępnie przetworzone dane dostępne są w pliku [**1a. Dane.xlsm**](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/1a.%20Dane.xlsm) w arkuszu *Wyniki ankiety*.
@@ -113,12 +113,16 @@ Skypt:
     * *przechodnie*: przech_odp_gry_regularne, przech_odp_gry_turniejowe, przech_odp_zainteresowanie_esport, przech_odp_zainteresowanie_turniej, przech_odp_druzyny;
 * tworzy lub zmienia widoki: Gry regularne, Gry turniejowe, Zainteresowanie e-sportem, Zainteresowanie turniejem, Stan drużyn, Odpowiedzi ankietowanych.
 
-Krok można wykonać równocześnie z krokiem importu danych przy wykorzystaniu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) (utworzenie bazy danych i tabel, **bez widoków**). Niestety, kreator importu nie powzwala na precyzyjne określenie typów kolumn - strata na wydajności.
+Krok ten może być zastąpiony i równocześnie wykonany z krokiem importu danych przy wykorzystaniu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) (utworzenie bazy danych i tabel, **bez widoków**). Niestety, kreator importu nie powzwala na precyzyjne określenie typów kolumn (strata na wydajności) ani kluczy pochodnych. Analogicznie sytuacja wygląda przy tworzeniu tabel podczas importu z wykorzystaniem *Table Data Import Wizard* programu MySQL Workbench.
 
 Typy kolumn zostały tak dobrane, aby umożliwić swobodne importowanie kolejnych danych z uwzględnieniem wydajności.
 ### Import danych do bazy danych
+Kolejne dane z plików *.csv zostały zaimportowane do odpowiednich tabel za pomocą narzędzia *Table Data Import Wizard* programu MySQL Workbench. Import ten mógłby zostać wykonany również bezpośrednio z programu Excel przy użyciu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) lub np. narzędzia [mysqlimport](https://dev.mysql.com/doc/refman/8.0/en/mysqlimport.html) z wiersza poleceń.
 
+Pliki *.csv mogłoby również zostać zaimportowane bezpośrednio do programu Power BI.
 ## Microsoft Power BI
 ### Import danych i zmiana ustawień relacji
 
 ### Tworzenie raportów
+
+## Wnioski z raportów
