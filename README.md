@@ -33,7 +33,7 @@ Zastosowałem następujące kroki:
 ![Schemat tabel w relacyjnej bazie danych](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/Pliki%20pomocnicze/schemat%20tabel.png)
 ## Microsoft Excel
 ### Tworzenie tabel przy użyciu Power Query
-Używając narzędzia Power Query stworzyłem i załadowałem do oddzielnych arkuszy zapytania tworzące tabele:
+Używając narzędzia Power Query, stworzyłem i załadowałem do oddzielnych arkuszy zapytania tworzące tabele:
 * słownikowe - zainteresowanie_esport, zainteresowanie_turniej, druzyny, plec;
 * normalne - gry_regularne, gry_turniejowe, wydzial, odpowiedzi;
 * przechodnie - przech_odp_gry_regularne, przech_odp_gry_turniejowe, przech_odp_zainteresowanie_esport, przech_odp_zainteresowanie_turniej, przech_odp_druzyny.
@@ -49,7 +49,7 @@ W szczegółności wykorzystałem funkcje:
 * usuń puste, usuń duplikaty;
 * scal zapytania.
 
-Dzięki zastosowaniu Power Query, utworzone tabele mogą zostać odświerzone przy zmianie danych w arkuszu *"Wyniki ankiety"*.
+Dzięki zastosowaniu Power Query utworzone tabele mogą zostać odświeżone przy zmianie danych w arkuszu *"Wyniki ankiety"*.
 
 W celu przypisania odpowiedziom odpowiedniego `id_` z tabel słownikowych i normalnych do tabel przechodnich wykrzystałem funkcję *scal zapytania* w edytorze Power Query.
 
@@ -104,8 +104,8 @@ End Sub
 ### Tworzenie bazy danych, tabel i widoków
 W celu stworzenia bazy danych, tabel i widoków uruchomiłem skrypt [**2a. tworzenie tabel.sql**](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/2a.%20tworzenie%20tabel.sql).
 
-Skypt:
-* tworzy baze danych, jeżeli nie istnieje: wyniki_ankiety;
+Skrypt:
+* tworzy bazę danych, jeżeli nie istnieje: wyniki_ankiety;
 * stosuje kodowanie: UTF-8;
 * tworzy tabele, jeżeli nie istnieją:
     * *słownikowe*: zainteresowanie_esport, zainteresowanie_turniej, druzyny, plec;
@@ -113,7 +113,7 @@ Skypt:
     * *przechodnie*: przech_odp_gry_regularne, przech_odp_gry_turniejowe, przech_odp_zainteresowanie_esport, przech_odp_zainteresowanie_turniej, przech_odp_druzyny;
 * tworzy lub zmienia widoki: Gry regularne, Gry turniejowe, Zainteresowanie e-sportem, Zainteresowanie turniejem, Stan drużyn, Odpowiedzi ankietowanych.
 
-Krok ten może być zastąpiony i równocześnie wykonany z krokiem importu danych przy wykorzystaniu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) (utworzenie bazy danych i tabel, **bez widoków**). Niestety, kreator importu nie powzwala na precyzyjne określenie typów kolumn (strata na wydajności) ani kluczy pochodnych. Analogicznie sytuacja wygląda przy tworzeniu tabel podczas importu z wykorzystaniem *Table Data Import Wizard* programu MySQL Workbench.
+Krok ten może być zastąpiony i równocześnie wykonany z krokiem importu danych przy wykorzystaniu dodatku [MySQL for Excel](https://www.mysql.com/why-mysql/windows/excel/) (utworzenie bazy danych i tabel, **bez widoków**). Niestety, kreator importu nie pozwala na precyzyjne określenie typów kolumn (strata na wydajności) ani kluczy pochodnych. Analogicznie sytuacja wygląda przy tworzeniu tabel podczas importu z wykorzystaniem *Table Data Import Wizard* programu MySQL Workbench.
 
 Typy kolumn zostały tak dobrane, aby umożliwić swobodne importowanie kolejnych danych z uwzględnieniem wydajności.
 ### Import danych do bazy danych
