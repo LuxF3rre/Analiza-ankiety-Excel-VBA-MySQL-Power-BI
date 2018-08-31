@@ -8,7 +8,7 @@ Celem opisywanego przypadku jest analiza wyników ankiety dostarczonych przez kl
 
 Do analizy wykorzystamy dane zebrane poprzez [Formularz Google](https://www.google.com/intl/pl_pl/forms/about/), które zostały wyeksportowane do pliku *.xls. Dane zebrane przez ankietę zostały wstępnie przetworzone:
 * odrzucenie niepoprawnych wpisów;
-* ujednolicenie wyrażeń podawanych przez ankietowanych w pytaniach otwartych (za pomocą wyrażeń regularnych; lepszym rozwiązaniem byłoby wykorzystanie następnym razem [OpenRefine](http://openrefine.org/));
+* ujednolicenie wyrażeń podawanych przez ankietowanych w pytaniach otwartych (za pomocą wyrażeń regularnych; lepszym rozwiązaniem byłoby wykorzystanie [OpenRefine](http://openrefine.org/));
 * zmiana kolumny z podanym adresem e-mail na kolumnę o typie Prawda/Fałsz *"Czy podał mail"* (za pomocą narzędzia Power Query -> Dodaj kolumnę warunkową -> dla wartości `null` przypisać `Fałsz` w przeciwnym razie `Prawda`).
 
 Wstępnie przetworzone dane dostępne są w pliku [**1a. Dane.xlsm**](https://github.com/LuxF3rre/Data-Science-Analiza-ankiety-Excel-VBA-MySQL-Power-BI/blob/master/1a.%20Dane.xlsm) w arkuszu *Wyniki ankiety*.
@@ -122,7 +122,16 @@ Kolejne dane z plików *.csv zostały zaimportowane do odpowiednich tabel za pom
 Pliki *.csv mogłoby również zostać zaimportowane bezpośrednio do programu Power BI.
 ## Microsoft Power BI
 ### Import danych i zmiana ustawień relacji
+Do programu [Power BI](https://powerbi.microsoft.com/en-us/) importujemy **widoki** (import tablic stwarza problemy: uzyskujemy 13 zamiast 6 tabel; nazwy kolumn są mało intuicyjne; trzeba uwzględniać występowanie tabel przechodnich przy tworzeniu wykresów; potencjalny problem z integralnością modelu w Power BI przy zmianie struktury bazy MySQL) z bazy MySQL.
 
+Power BI automatycznie wykrywa występujące relacje (przez wspólną kolumnę `ID`). Zmieniłem **kierunek filtrowania krzyżowego** na wartość `Oba` we wszystkich relacjach. Umożliwia to filtorwanie np. kolumny płeć przez określony stan drużyn.
 ### Tworzenie raportów
 
 ## Wnioski z raportów
+### Czy istnieje potrzeba przeprowadzenia projektu?
+
+### Kto jest jego odbiorcą, a kto early adopterem?
+
+### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
+
+### Jakie i jak duże są potrzeby odbiorców w obszarze tworzenia drużyn?
