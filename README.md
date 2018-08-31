@@ -135,3 +135,4 @@ Power BI automatycznie wykrywa występujące relacje (przez wspólną kolumnę `
 ### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
 
 ### Jakie i jak duże są potrzeby odbiorców w obszarze tworzenia drużyn?
+##Raport doświadczeń
