@@ -124,7 +124,7 @@ Pliki *.csv mogłoby również zostać zaimportowane bezpośrednio do programu P
 ### Import danych i zmiana ustawień relacji
 Do programu [Power BI](https://powerbi.microsoft.com/en-us/) importujemy **widoki** (import tablic stwarza problemy: uzyskujemy 13 zamiast 6 tabel; nazwy kolumn są mało intuicyjne; trzeba uwzględniać występowanie tabel przechodnich przy tworzeniu wykresów; potencjalny problem z integralnością modelu w Power BI przy zmianie struktury bazy MySQL) z bazy MySQL.
 
-Power BI automatycznie wykrywa występujące relacje (przez wspólną kolumnę `ID`). Zmieniłem **kierunek filtrowania krzyżowego** na wartość `Oba` we wszystkich relacjach. Umożliwia to filtorwanie np. kolumny płeć przez określony stan drużyn.
+Power BI automatycznie wykrywa występujące relacje (przez wspólną kolumnę `ID`). Zmieniłem **kierunek filtrowania krzyżowego** na wartość `Oba` we wszystkich relacjach. Umożliwia to filtrowanie np. kolumny płeć przez określony stan drużyn.
 ### Tworzenie raportów
 
 ## Wnioski z raportów
