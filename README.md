@@ -127,6 +127,7 @@ Do programu [Power BI](https://powerbi.microsoft.com/en-us/) importujemy **widok
 Power BI automatycznie wykrywa występujące relacje (przez wspólną kolumnę `ID`). Zmieniłem **kierunek filtrowania krzyżowego** na wartość `Oba` we wszystkich relacjach. Umożliwia to filtrowanie np. kolumny płeć przez określony stan drużyn.
 ### Tworzenie raportów
 
+
 ## Wnioski z raportów
 ### Czy istnieje potrzeba przeprowadzenia projektu?
 
