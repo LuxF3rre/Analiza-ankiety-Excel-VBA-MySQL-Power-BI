@@ -172,7 +172,7 @@ Ze względu na możliwe inne potrzeby (w tym sposób i środek komunikacji) oraz
     * nie ma wyraźnej przynależności do wydziału.
 
 #### Uwagi
-1. Zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami.
+1. Zakładając, że osoby te udały się na studia od razu po maturze po szkole średniej, a ich edukacja przebiegała zgodnie z oczekiwaniami (szkoła podstawowa -> gimnazium -> liceum / technikum).
 
 ### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
 
