@@ -132,10 +132,18 @@ Raporty można podzielić na kategorię:
 * dotyczące osób, które zdeklarowały uczestnictwo.
 
 Każda kategoria zawiera dwa raporty, które składają się z wizualizaji:
-* demografia, zainteresowanie e-sportem i turniejem;
-* gry i drużyny.
-
-Raporty 
+* demografia, zainteresowanie e-sportem i turniejem:
+    * podział płci;
+    * czy weźmie udział;
+    * czy zostawił adres e-mail;
+    * struktura wiekowa;
+    * zainteresowania e-sportem;
+    * zainteresowanie turniejem;
+* gry i drużyny:
+    * struktura gier regularnych;
+    * struktura gier turniejowych;
+    * stan drużyn.
+Do każdego raportu został dołączony zestaw kontrolek do nakładania filtrów na raport.
 ## Wnioski z raportów
 ### Czy istnieje potrzeba przeprowadzenia projektu?
 
