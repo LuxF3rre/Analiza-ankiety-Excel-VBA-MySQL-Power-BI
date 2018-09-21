@@ -143,6 +143,7 @@ Każda kategoria zawiera dwa raporty, które składają się z wizualizaji:
     * struktura gier regularnych;
     * struktura gier turniejowych;
     * stan drużyn.
+  
 Do każdego raportu został dołączony zestaw kontrolek do nakładania filtrów na raport.
 ## Wnioski z raportów
 ### Czy istnieje potrzeba przeprowadzenia projektu?
@@ -152,4 +153,4 @@ Do każdego raportu został dołączony zestaw kontrolek do nakładania filtrów
 ### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
 
 ### Jakie i jak duże są potrzeby odbiorców w obszarze tworzenia drużyn?
-##Raport doświadczeń
+## Raport doświadczeń
