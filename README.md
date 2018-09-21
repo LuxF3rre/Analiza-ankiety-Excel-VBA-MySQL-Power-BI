@@ -153,12 +153,12 @@ Do każdego raportu został dołączony zestaw kontrolek do nakładania filtrów
 ### Kto jest jego odbiorcą, a kto early adopterem?
 Podział na głównych uczestników i early adopterów jest następujący: uczestnicy zdeklarowali się na udziału w turnieju, ale nie zostawili adresu e-mail, a early adopterzy zrobili obie te rzeczy.
 
-Główny uczestnik (% populacji; grupa rozłączna z early adopterami) to:
+Główny uczestnik (30% populacji; grupa rozłączna z early adopterami) to:
 * mężczyzna;
 * w wieku 19-22 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki lub Zarządzania.
 
-Early adopter (% populacji) to:
+Early adopter (14% populacji) to:
 * mężczyzna;
 * wiek 20-22 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki, Zarządzania lub Nauk Ekonomicznych.
