@@ -126,8 +126,16 @@ Do programu [Power BI](https://powerbi.microsoft.com/en-us/) importujemy **widok
 
 Power BI automatycznie wykrywa występujące relacje (przez wspólną kolumnę `ID`). Zmieniłem **kierunek filtrowania krzyżowego** na wartość `Oba` we wszystkich relacjach. Umożliwia to filtrowanie np. kolumny płeć przez określony stan drużyn.
 ### Tworzenie raportów
+Raporty można podzielić na kategorię:
+* dotyczące wyszystkich osób z próbki populacji;
+* dotyczące early adopterów;
+* dotyczące osób, które zdeklarowały uczestnictwo.
 
+Każda kategoria zawiera dwa raporty, które składają się z wizualizaji:
+* demografia, zainteresowanie e-sportem i turniejem;
+* gry i drużyny.
 
+Raporty 
 ## Wnioski z raportów
 ### Czy istnieje potrzeba przeprowadzenia projektu?
 
