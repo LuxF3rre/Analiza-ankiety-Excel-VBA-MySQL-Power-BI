@@ -2,7 +2,7 @@
 ## Opis przypadku
 Celem opisywanego przypadku jest analiza wyników ankiety dostarczonych przez klienta, której wynikiem będzie interaktywny raport, pozwalający odpowiedzieć na pytania:
 1. Czy istnieje potrzeba przeprowadzenia projektu?
-2. Kto jest jego odbiorcą, a kto early adopterem?
+2. Kto jest jego głównym uczestnikiem, a kto early adopterem?
 3. Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
 4. Jakie i jak duże są potrzeby odbiorców w obszarze tworzenia drużyn?
 
@@ -146,14 +146,14 @@ Każda kategoria zawiera dwa raporty, które składają się z wizualizaji:
     * struktura gier turniejowych;
     * stan drużyn.
   
-Do każdego raportu został dołączony zestaw kontrolek do nakładania filtrów na raport.
+Do każdego raportu został dołączony zestaw kontrolek do nakładania filtrów na stronę.
 ## Wnioski z raportów
 ### Czy istnieje potrzeba przeprowadzenia projektu?
 *Tak*, prawie 70% ankietowanych zdeklarowało chęć udziału w projekcie.
 ### Kto jest jego odbiorcą, a kto early adopterem?
-Podział na odbiorców i early adopterów jest następujący: odbiorcy zdeklarowali chęć udziału w turnieju, ale nie zostawili adresu e-mail, a early adopterzy zrobili obie te rzeczy.
+Podział na głównych uczestników i early adopterów jest następujący: uczestnicy zdeklarowali chęć udziału w turnieju, ale nie zostawili adresu e-mail, a early adopterzy zrobili obie te rzeczy.
 
-Odbiorca (% populacji; grupa rozłączna z early adopterami) to:
+Główny uczestnik (% populacji; grupa rozłączna z early adopterami) to:
 * męzczyzna;
 * w wieku 19-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki lub Zarządzania.
@@ -164,10 +164,10 @@ Early adopter (% populacji) to:
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki, Zarządzania lub Nauk Ekonomicznych.
 
 Ze względu na możliwe inne potrzeby (w tym sposob i środek komunikacji) oraz oczekiwania można wydzielić niszę dla kobiet:
-* odbiorcy (% populacji grupa rozłączna z early adopterami):
+* uczestnik (% populacji grupa rozłączna z early adopterami):
     * w wiek 20-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
     * studiuje na wydziale Psychologi lub Zarządzania;
-* early adopters (% populacji):
+* early adopter (% populacji):
     * w wieku 19-21 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
     * nie ma wyraźnej przynależności do wydziału.
 ### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
