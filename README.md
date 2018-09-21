@@ -129,11 +129,11 @@ Do programu [Power BI](https://powerbi.microsoft.com/en-us/) importujemy **widok
 Power BI automatycznie wykrywa występujące relacje (przez wspólną kolumnę `ID`). Zmieniłem **kierunek filtrowania krzyżowego** na wartość `Oba` we wszystkich relacjach. Umożliwia to filtrowanie np. kolumny płeć przez określony stan drużyn.
 ### Tworzenie raportów
 Raporty można podzielić na kategorię:
-* dotyczące wyszystkich osób z próbki populacji;
+* dotyczące wszystkich osób z próbki populacji;
 * dotyczące early adopterów;
-* dotyczące osób, które zdeklarowały uczestnictwo.
+* dotyczące osób, które zdeklarowały się na uczestnictwo.
 
-Każda kategoria zawiera dwa raporty, które składają się z wizualizaji:
+Każda kategoria zawiera dwa raporty, które składają się z wizualizacji:
 * demografia, zainteresowanie e-sportem i turniejem:
     * podział płci;
     * czy weźmie udział;
@@ -149,26 +149,26 @@ Każda kategoria zawiera dwa raporty, które składają się z wizualizaji:
 Do każdego raportu został dołączony zestaw kontrolek do nakładania filtrów na stronę.
 ## Wnioski z raportów
 ### Czy istnieje potrzeba przeprowadzenia projektu?
-*Tak*, prawie 70% ankietowanych zdeklarowało chęć udziału w projekcie.
+**Tak**, prawie 70% ankietowanych zdeklarowało się na udziału w projekcie.
 ### Kto jest jego odbiorcą, a kto early adopterem?
-Podział na głównych uczestników i early adopterów jest następujący: uczestnicy zdeklarowali chęć udziału w turnieju, ale nie zostawili adresu e-mail, a early adopterzy zrobili obie te rzeczy.
+Podział na głównych uczestników i early adopterów jest następujący: uczestnicy zdeklarowali się na udziału w turnieju, ale nie zostawili adresu e-mail, a early adopterzy zrobili obie te rzeczy.
 
 Główny uczestnik (% populacji; grupa rozłączna z early adopterami) to:
-* męzczyzna;
-* w wieku 19-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
+* mężczyzna;
+* w wieku 19-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami, to są one na 1-3 roku studiów I stopnia);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki lub Zarządzania.
 
 Early adopter (% populacji) to:
-* męzczyzna;
-* wiek 20-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
+* mężczyzna;
+* wiek 20-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami, to są one na 1-3 roku studiów I stopnia);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki, Zarządzania lub Nauk Ekonomicznych.
 
-Ze względu na możliwe inne potrzeby (w tym sposob i środek komunikacji) oraz oczekiwania można wydzielić niszę dla kobiet:
+Ze względu na możliwe inne potrzeby (w tym sposób i środek komunikacji) oraz oczekiwania można wydzielić niszę dla kobiet:
 * uczestnik (% populacji grupa rozłączna z early adopterami):
-    * w wiek 20-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
+    * w wiek 20-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami, to są one na 1-3 roku studiów I stopnia);
     * studiuje na wydziale Psychologi lub Zarządzania;
 * early adopter (% populacji):
-    * w wieku 19-21 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
+    * w wieku 19-21 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami, to są one na 1-3 roku studiów I stopnia);
     * nie ma wyraźnej przynależności do wydziału.
 ### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
 
