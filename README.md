@@ -155,20 +155,20 @@ Podział na głównych uczestników i early adopterów jest następujący: uczes
 
 Główny uczestnik (30% populacji; grupa rozłączna z early adopterami) to:
 * mężczyzna;
-* w wieku 19-22 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
+* w wieku 19-22 lat (jest on na 1-3 roku studiów I stopnia<sup>1</sup>);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki lub Zarządzania.
 
 Early adopter (14% populacji) to:
 * mężczyzna;
-* wiek 20-22 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
+* w wiek 20-22 lat (jest on na 1-3 roku studiów I stopnia<sup>1</sup>);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki, Zarządzania lub Nauk Ekonomicznych.
 
 Ze względu na możliwe inne potrzeby (w tym sposób i środek komunikacji) oraz oczekiwania można wydzielić niszę dla kobiet:
 * uczestnik (% populacji grupa rozłączna z early adopterami):
-    * w wiek 20-22 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
+    * w wiek 20-22 lat (jest ona na 1-3 roku studiów I stopnia<sup>1</sup>);
     * studiuje na wydziale Psychologi lub Zarządzania;
 * early adopter (% populacji):
-    * w wieku 19-21 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
+    * w wieku 19-21 lat (jest ona na 1-3 roku studiów I stopnia<sup>1</sup>);
     * nie ma wyraźnej przynależności do wydziału.
 
 #### Uwagi
