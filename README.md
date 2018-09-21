@@ -19,6 +19,8 @@ Podczas tworzenia tego przypadku przyjąłem następujące założenia:
 * zastosowanie automatyzacji zadań trywialnych;
 * obranie ścieżki wykonania nie najkrótszej (choć jest wspomniane o możliwych działaniach), ale pokazującej wykorzystanie różnych technologii;
 * optymalizacja kodu.
+
+Zakładamy, że grupa na której prowadzone były badania jest reprezentatywna, więc można na jej podstawie wyciągać wnioski na temat całej populacji.
 ## Workflow
 Zastosowałem następujące kroki:
 1. Import wyników ankiety do Excela.
@@ -147,10 +149,27 @@ Każda kategoria zawiera dwa raporty, które składają się z wizualizaji:
 Do każdego raportu został dołączony zestaw kontrolek do nakładania filtrów na raport.
 ## Wnioski z raportów
 ### Czy istnieje potrzeba przeprowadzenia projektu?
-
+*Tak*, prawie 70% ankietowanych zdeklarowało chęć udziału w projekcie.
 ### Kto jest jego odbiorcą, a kto early adopterem?
+Odbiorca (% populacji; grupa rozłączna z early adopterami) to:
+* męzczyzna;
+* w wieku 19-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
+* studiuje na wydziale Matematyki, Informatyki i Mechaniki lub Zarządzania.
 
+Early adopter (% populacji) to:
+* męzczyzna;
+* wiek 20-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
+* studiuje na wydziale Matematyki, Informatyki i Mechaniki, Zarządzania lub Nauk Ekonomicznych.
+
+Można wydzielić niszę dla kobiet:
+* odbiorcy (% populacji):
+    * w wiek 20-22 lat;
+    * studiuje na wydziale Psychologi lub Zarządzania;
+* early adopters (% populacji):
+    * w wieku 19-21 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami to są one na 1-3 roku studiów I stopnia);
+    * nie ma wyraźnej przynależności do wydziału.
 ### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
 
 ### Jakie i jak duże są potrzeby odbiorców w obszarze tworzenia drużyn?
+
 ## Raport doświadczeń
