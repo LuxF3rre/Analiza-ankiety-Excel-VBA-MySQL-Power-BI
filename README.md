@@ -155,21 +155,25 @@ Podział na głównych uczestników i early adopterów jest następujący: uczes
 
 Główny uczestnik (% populacji; grupa rozłączna z early adopterami) to:
 * mężczyzna;
-* w wieku 19-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami, to są one na 1-3 roku studiów I stopnia);
+* w wieku 19-22 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki lub Zarządzania.
 
 Early adopter (% populacji) to:
 * mężczyzna;
-* wiek 20-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami, to są one na 1-3 roku studiów I stopnia);
+* wiek 20-22 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
 * studiuje na wydziale Matematyki, Informatyki i Mechaniki, Zarządzania lub Nauk Ekonomicznych.
 
 Ze względu na możliwe inne potrzeby (w tym sposób i środek komunikacji) oraz oczekiwania można wydzielić niszę dla kobiet:
 * uczestnik (% populacji grupa rozłączna z early adopterami):
-    * w wiek 20-22 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami, to są one na 1-3 roku studiów I stopnia);
+    * w wiek 20-22 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
     * studiuje na wydziale Psychologi lub Zarządzania;
 * early adopter (% populacji):
-    * w wieku 19-21 lat (zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami, to są one na 1-3 roku studiów I stopnia);
+    * w wieku 19-21 lat (są one na 1-3 roku studiów I stopnia<sup>1</sup>);
     * nie ma wyraźnej przynależności do wydziału.
+
+#### Uwagi
+1. Zakładając, że osoby te udały się na studia od razu po maturze, a ich edukacja przebiegała zgodnie z oczekiwaniami.
+
 ### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
 
 ### Jakie i jak duże są potrzeby odbiorców w obszarze tworzenia drużyn?
