@@ -175,7 +175,19 @@ Ze względu na możliwe inne potrzeby (w tym sposób i środek komunikacji) oraz
 1. Zakładając, że osoby te udały się na studia od razu po maturze po szkole średniej, a ich edukacja przebiegała zgodnie z oczekiwaniami (szkoła podstawowa -> gimnazium -> liceum / technikum; bez przerw w nauce).
 
 ### Jakie mają oni preferencję (co do przedmiotu i formuły projektu)?
+Główni uczestnicy:
+*
 
+Early adopterzy:
+*
+
+Kobiety:
+* Uczestnicy:
+    * 
+* Early adopterzy:
+    * 
 ### Jakie i jak duże są potrzeby odbiorców w obszarze tworzenia drużyn?
+
+## Wnioski końcowe
 
 ## Raport doświadczeń
